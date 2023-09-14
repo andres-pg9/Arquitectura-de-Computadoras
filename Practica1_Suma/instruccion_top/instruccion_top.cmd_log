@@ -1,0 +1,27 @@
+xst -intstyle ise -ifn "/home/mitersgentleman/Desktop/Arqui/instruccion_top/instruccion_top.xst" -ofn "/home/mitersgentleman/Desktop/Arqui/instruccion_top/instruccion_top.syr" 
+xst -intstyle ise -ifn "C:/Users/LAB PRUEBAS/Downloads/hg/Arqui/Arqui/instruccion_top/instruccion_top.xst" -ofn "C:/Users/LAB PRUEBAS/Downloads/hg/Arqui/Arqui/instruccion_top/instruccion_top.syr" 
+xst -intstyle ise -ifn "C:/Users/LAB PRUEBAS/Downloads/hg/Arqui/Arqui/instruccion_top/instruccion_top.xst" -ofn "C:/Users/LAB PRUEBAS/Downloads/hg/Arqui/Arqui/instruccion_top/instruccion_top.syr" 
+xst -intstyle ise -ifn "C:/Users/LAB PRUEBAS/Downloads/hg/Arqui/Arqui/instruccion_top/instruccion_top.xst" -ofn "C:/Users/LAB PRUEBAS/Downloads/hg/Arqui/Arqui/instruccion_top/instruccion_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc instruccion_top.ucf -p xc7a100t-csg324-3 "instruccion_top.ngc" instruccion_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o instruccion_top_map.ncd instruccion_top.ngd instruccion_top.pcf 
+par -w -intstyle ise -ol high -mt off instruccion_top_map.ncd instruccion_top.ncd instruccion_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruccion_top.twx instruccion_top.ncd -o instruccion_top.twr instruccion_top.pcf -ucf instruccion_top.ucf 
+bitgen -intstyle ise -f instruccion_top.ut instruccion_top.ncd 
+xst -intstyle ise -ifn "D:/Arquitectura/Practica1 - copia/instruccion_top/instruccion_top.xst" -ofn "D:/Arquitectura/Practica1 - copia/instruccion_top/instruccion_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc instruccion_top.ucf -p xc7a100t-csg324-3 "instruccion_top.ngc" instruccion_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o instruccion_top_map.ncd instruccion_top.ngd instruccion_top.pcf 
+par -w -intstyle ise -ol high -mt off instruccion_top_map.ncd instruccion_top.ncd instruccion_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruccion_top.twx instruccion_top.ncd -o instruccion_top.twr instruccion_top.pcf -ucf instruccion_top.ucf 
+bitgen -intstyle ise -f instruccion_top.ut instruccion_top.ncd 
+xst -intstyle ise -ifn "D:/Arquitectura/Practica1 - copia/instruccion_top/instruccion_top.xst" -ofn "D:/Arquitectura/Practica1 - copia/instruccion_top/instruccion_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc instruccion_top.ucf -p xc7a100t-csg324-3 "instruccion_top.ngc" instruccion_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o instruccion_top_map.ncd instruccion_top.ngd instruccion_top.pcf 
+par -w -intstyle ise -ol high -mt off instruccion_top_map.ncd instruccion_top.ncd instruccion_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruccion_top.twx instruccion_top.ncd -o instruccion_top.twr instruccion_top.pcf -ucf instruccion_top.ucf 
+bitgen -intstyle ise -f instruccion_top.ut instruccion_top.ncd 
+xst -intstyle ise -ifn "D:/Arquitectura/Practica1 - copia/instruccion_top/instruccion_top.xst" -ofn "D:/Arquitectura/Practica1 - copia/instruccion_top/instruccion_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc instruccion_top.ucf -p xc7a100t-csg324-3 "instruccion_top.ngc" instruccion_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o instruccion_top_map.ncd instruccion_top.ngd instruccion_top.pcf 
+par -w -intstyle ise -ol high -mt off instruccion_top_map.ncd instruccion_top.ncd instruccion_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruccion_top.twx instruccion_top.ncd -o instruccion_top.twr instruccion_top.pcf -ucf instruccion_top.ucf 
+bitgen -intstyle ise -f instruccion_top.ut instruccion_top.ncd 

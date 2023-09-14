@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "/home/mitersgentleman/Desktop/Arqui/U_control/U_control.xst" -ofn "/home/mitersgentleman/Desktop/Arqui/U_control/U_control.syr" 
+xst -intstyle ise -ifn "/home/mitersgentleman/Desktop/Arqui/U_control/U_control.xst" -ofn "/home/mitersgentleman/Desktop/Arqui/U_control/U_control.syr" 
+xst -intstyle ise -ifn "C:/Users/LAB PRUEBAS/Downloads/Arqui/Arqui/U_control/U_control.xst" -ofn "C:/Users/LAB PRUEBAS/Downloads/Arqui/Arqui/U_control/U_control.syr" 
+xst -intstyle ise -ifn "C:/Users/LAB PRUEBAS/Downloads/Arqui/Arqui/U_control/U_control.xst" -ofn "C:/Users/LAB PRUEBAS/Downloads/Arqui/Arqui/U_control/U_control.syr" 

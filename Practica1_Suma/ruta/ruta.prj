@@ -1,0 +1,2 @@
+vhdl work "../registro/registro.vhd"
+vhdl work "ruta.vhd"

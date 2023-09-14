@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Arquitectura\Practica1 - copia\instruccion_top\instruccion_top.ncd
+OUTFILE=D:\Arquitectura\Practica1 - copia\instruccion_top\instruccion_top.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=D:\Arquitectura\Practica1 - copia\instruccion_top
+LICENSE=WebPack
+USER_INFO=__0_0_0

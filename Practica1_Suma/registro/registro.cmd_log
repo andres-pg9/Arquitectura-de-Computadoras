@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/mitersgentleman/Desktop/Arqui/registro/registro.xst" -ofn "/home/mitersgentleman/Desktop/Arqui/registro/registro.syr" 
+xst -intstyle ise -ifn "C:/Users/LAB PRUEBAS/Downloads/Arqui/Arqui/registro/registro.xst" -ofn "C:/Users/LAB PRUEBAS/Downloads/Arqui/Arqui/registro/registro.syr" 
