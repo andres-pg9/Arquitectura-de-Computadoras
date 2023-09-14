@@ -1,0 +1,76 @@
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.syr" 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Instruccion_top.ucf -p xc7a100t-csg324-3 "Instruccion_top.ngc" Instruccion_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Instruccion_top_map.ncd Instruccion_top.ngd Instruccion_top.pcf 
+par -w -intstyle ise -ol high -mt off Instruccion_top_map.ncd Instruccion_top.ncd Instruccion_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Instruccion_top.twx Instruccion_top.ncd -o Instruccion_top.twr Instruccion_top.pcf -ucf Instruccion_top.ucf 
+bitgen -intstyle ise -f Instruccion_top.ut Instruccion_top.ncd 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Instruccion_top.ucf -p xc7a100t-csg324-3 "Instruccion_top.ngc" Instruccion_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Instruccion_top_map.ncd Instruccion_top.ngd Instruccion_top.pcf 
+par -w -intstyle ise -ol high -mt off Instruccion_top_map.ncd Instruccion_top.ncd Instruccion_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Instruccion_top.twx Instruccion_top.ncd -o Instruccion_top.twr Instruccion_top.pcf -ucf Instruccion_top.ucf 
+bitgen -intstyle ise -f Instruccion_top.ut Instruccion_top.ncd 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Instruccion_top.ucf -p xc7a100t-csg324-3 "Instruccion_top.ngc" Instruccion_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Instruccion_top_map.ncd Instruccion_top.ngd Instruccion_top.pcf 
+par -w -intstyle ise -ol high -mt off Instruccion_top_map.ncd Instruccion_top.ncd Instruccion_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Instruccion_top.twx Instruccion_top.ncd -o Instruccion_top.twr Instruccion_top.pcf -ucf Instruccion_top.ucf 
+bitgen -intstyle ise -f Instruccion_top.ut Instruccion_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Instruccion_top.ucf -p xc7a100t-csg324-3 "Instruccion_top.ngc" Instruccion_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Instruccion_top_map.ncd Instruccion_top.ngd Instruccion_top.pcf 
+par -w -intstyle ise -ol high -mt off Instruccion_top_map.ncd Instruccion_top.ncd Instruccion_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Instruccion_top.twx Instruccion_top.ncd -o Instruccion_top.twr Instruccion_top.pcf -ucf Instruccion_top.ucf 
+bitgen -intstyle ise -f Instruccion_top.ut Instruccion_top.ncd 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.syr" 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.syr" 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Instruccion_top.ucf -p xc7a100t-csg324-3 "Instruccion_top.ngc" Instruccion_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Instruccion_top_map.ncd Instruccion_top.ngd Instruccion_top.pcf 
+par -w -intstyle ise -ol high -mt off Instruccion_top_map.ncd Instruccion_top.ncd Instruccion_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Instruccion_top.twx Instruccion_top.ncd -o Instruccion_top.twr Instruccion_top.pcf -ucf Instruccion_top.ucf 
+bitgen -intstyle ise -f Instruccion_top.ut Instruccion_top.ncd 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Instruccion_top.ucf -p xc7a100t-csg324-3 "Instruccion_top.ngc" Instruccion_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Instruccion_top_map.ncd Instruccion_top.ngd Instruccion_top.pcf 
+par -w -intstyle ise -ol high -mt off Instruccion_top_map.ncd Instruccion_top.ncd Instruccion_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Instruccion_top.twx Instruccion_top.ncd -o Instruccion_top.twr Instruccion_top.pcf -ucf Instruccion_top.ucf 
+bitgen -intstyle ise -f Instruccion_top.ut Instruccion_top.ncd 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Instruccion_top.ucf -p xc7a100t-csg324-3 "Instruccion_top.ngc" Instruccion_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Instruccion_top_map.ncd Instruccion_top.ngd Instruccion_top.pcf 
+par -w -intstyle ise -ol high -mt off Instruccion_top_map.ncd Instruccion_top.ncd Instruccion_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Instruccion_top.twx Instruccion_top.ncd -o Instruccion_top.twr Instruccion_top.pcf -ucf Instruccion_top.ucf 
+bitgen -intstyle ise -f Instruccion_top.ut Instruccion_top.ncd 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Instruccion_top.ucf -p xc7a100t-csg324-3 "Instruccion_top.ngc" Instruccion_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Instruccion_top_map.ncd Instruccion_top.ngd Instruccion_top.pcf 
+par -w -intstyle ise -ol high -mt off Instruccion_top_map.ncd Instruccion_top.ncd Instruccion_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Instruccion_top.twx Instruccion_top.ncd -o Instruccion_top.twr Instruccion_top.pcf -ucf Instruccion_top.ucf 
+bitgen -intstyle ise -f Instruccion_top.ut Instruccion_top.ncd 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Instruccion_top.ucf -p xc7a100t-csg324-3 "Instruccion_top.ngc" Instruccion_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Instruccion_top_map.ncd Instruccion_top.ngd Instruccion_top.pcf 
+par -w -intstyle ise -ol high -mt off Instruccion_top_map.ncd Instruccion_top.ncd Instruccion_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Instruccion_top.twx Instruccion_top.ncd -o Instruccion_top.twr Instruccion_top.pcf -ucf Instruccion_top.ucf 
+bitgen -intstyle ise -f Instruccion_top.ut Instruccion_top.ncd 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.syr" 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Instruccion_top.ucf -p xc7a100t-csg324-3 "Instruccion_top.ngc" Instruccion_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Instruccion_top_map.ncd Instruccion_top.ngd Instruccion_top.pcf 
+par -w -intstyle ise -ol high -mt off Instruccion_top_map.ncd Instruccion_top.ncd Instruccion_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Instruccion_top.twx Instruccion_top.ncd -o Instruccion_top.twr Instruccion_top.pcf -ucf Instruccion_top.ucf 
+bitgen -intstyle ise -f Instruccion_top.ut Instruccion_top.ncd 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.syr" 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Instruccion_top.ucf -p xc7a100t-csg324-3 "Instruccion_top.ngc" Instruccion_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Instruccion_top_map.ncd Instruccion_top.ngd Instruccion_top.pcf 
+par -w -intstyle ise -ol high -mt off Instruccion_top_map.ncd Instruccion_top.ncd Instruccion_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Instruccion_top.twx Instruccion_top.ncd -o Instruccion_top.twr Instruccion_top.pcf -ucf Instruccion_top.ucf 
+bitgen -intstyle ise -f Instruccion_top.ut Instruccion_top.ncd 
+xst -intstyle ise -ifn "Z:/2/Practica2/Instruccion_top/Instruccion_top.xst" -ofn "Z:/2/Practica2/Instruccion_top/Instruccion_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Instruccion_top.ucf -p xc7a100t-csg324-3 Instruccion_top.ngc Instruccion_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Instruccion_top_map.ncd Instruccion_top.ngd Instruccion_top.pcf 
+par -w -intstyle ise -ol high -mt off Instruccion_top_map.ncd Instruccion_top.ncd Instruccion_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Instruccion_top.twx Instruccion_top.ncd -o Instruccion_top.twr Instruccion_top.pcf -ucf Instruccion_top.ucf 
+bitgen -intstyle ise -f Instruccion_top.ut Instruccion_top.ncd 

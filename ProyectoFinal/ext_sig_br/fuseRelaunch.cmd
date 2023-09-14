@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/XIMENA/Escritorio/arqui/nuevo proyecto/ext_sig_br/ext_sig_br_isim_beh.exe" -prj "D:/XIMENA/Escritorio/arqui/nuevo proyecto/ext_sig_br/ext_sig_br_beh.prj" "work.ext_sig_br" 

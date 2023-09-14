@@ -1,0 +1,4 @@
+vhdl work "../../program conter/program_conter/program_conter.vhd"
+vhdl work "../../memoria RAM de 38x8/SRAM/SRAM.vhd"
+vhdl work "../../apuntador de pila/stack_p/stack_p.vhd"
+vhdl work "pila.vhd"

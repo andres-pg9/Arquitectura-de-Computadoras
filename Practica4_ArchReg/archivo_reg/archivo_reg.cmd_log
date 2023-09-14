@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/archivo_reg/archivo_reg.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/archivo_reg/archivo_reg.syr" 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/archivo_reg/archivo_reg.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/archivo_reg/archivo_reg.syr" 

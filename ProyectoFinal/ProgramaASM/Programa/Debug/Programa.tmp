@@ -1,0 +1,33 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\andre\Documents\Windows XP\Arquitectura\Programa\Programa\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\andre\Documents\Windows XP\Arquitectura\Programa\Programa\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\andre\Documents\Windows XP\Arquitectura\Programa\Programa\Debug\Programa.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Programa.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Programa.map</FILE>
+  <FILE>Programa.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>C:\Users\andre\Documents\Windows XP\Arquitectura\Programa\Programa\main.asm</FILE><LINE>5</LINE></start>
+  <loop><FILE>C:\Users\andre\Documents\Windows XP\Arquitectura\Programa\Programa\main.asm</FILE><LINE>12</LINE></loop>
+  <delay_1s><FILE>C:\Users\andre\Documents\Windows XP\Arquitectura\Programa\Programa\main.asm</FILE><LINE>117</LINE></delay_1s>
+  <lazo3><FILE>C:\Users\andre\Documents\Windows XP\Arquitectura\Programa\Programa\main.asm</FILE><LINE>118</LINE></lazo3>
+  <lazo2><FILE>C:\Users\andre\Documents\Windows XP\Arquitectura\Programa\Programa\main.asm</FILE><LINE>119</LINE></lazo2>
+  <lazo1><FILE>C:\Users\andre\Documents\Windows XP\Arquitectura\Programa\Programa\main.asm</FILE><LINE>120</LINE></lazo1>
+ </LABELS>
+</ASSEMBLER_INFO>

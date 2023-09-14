@@ -1,0 +1,5 @@
+vhdl isim_temp "../stack_p/stack_p.vhd"
+vhdl isim_temp "../SRAM/SRAM.vhd"
+vhdl isim_temp "../program_c/program_c.vhd"
+vhdl isim_temp "../divisor_reloj/divisor_reloj.vhd"
+vhdl isim_temp "pila.vhd"

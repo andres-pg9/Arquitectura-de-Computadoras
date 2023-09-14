@@ -1,0 +1,150 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Nov 08 18:53:36 2022
+# Process ID: 1268
+# Log file: C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/planAhead_run_3/planAhead.log
+# Journal file: C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/pa.fromNetlist.tcl}
+set_property iostandard LVCMOS33 [get_ports [list {A[7]}]]
+set_property iostandard LVCMOS33 [get_ports [list {A[6]}]]
+set_property iostandard LVCMOS33 [get_ports [list {B[7]}]]
+set_property iostandard LVCMOS25 [get_ports [list {B[6]}]]
+set_property iostandard LVCMOS33 [get_ports [list {B[6]}]]
+set_property iostandard LVCMOS33 [get_ports [list {F[7]}]]
+set_property iostandard LVCMOS33 [get_ports [list {F[6]}]]
+save_constraints
+set_property package_pin "" [get_ports [list  {A[7]}]]
+startgroup
+set_property package_pin M18 [get_ports {S[2]}]
+endgroup
+startgroup
+set_property package_pin N17 [get_ports {S[1]}]
+endgroup
+startgroup
+set_property package_pin P18 [get_ports {S[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {F[5]}]]
+set_property package_pin "" [get_ports [list  {F[4]}]]
+set_property package_pin "" [get_ports [list  {F[3]}]]
+set_property package_pin "" [get_ports [list  {F[2]}]]
+set_property package_pin "" [get_ports [list  {F[1]}]]
+set_property package_pin "" [get_ports [list  {F[0]}]]
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+set_property package_pin "" [get_ports [list  {F[5]}]]
+set_property package_pin "" [get_ports [list  {F[4]}]]
+set_property package_pin "" [get_ports [list  {F[3]}]]
+set_property package_pin "" [get_ports [list  {F[2]}]]
+set_property package_pin "" [get_ports [list  {F[1]}]]
+set_property package_pin "" [get_ports [list  {F[0]}]]
+set_property package_pin "" [get_ports [list  {A[6]}]]
+set_property package_pin "" [get_ports [list  {A[5]}]]
+set_property package_pin "" [get_ports [list  {A[4]}]]
+set_property package_pin "" [get_ports [list  {A[3]}]]
+set_property package_pin "" [get_ports [list  {A[2]}]]
+set_property package_pin "" [get_ports [list  {A[1]}]]
+set_property package_pin "" [get_ports [list  {A[0]}]]
+set_property package_pin "" [get_ports [list  {B[5]}]]
+set_property package_pin "" [get_ports [list  {B[4]}]]
+set_property package_pin "" [get_ports [list  {B[3]}]]
+set_property package_pin "" [get_ports [list  {B[2]}]]
+set_property package_pin "" [get_ports [list  {B[1]}]]
+set_property package_pin "" [get_ports [list  {B[0]}]]
+startgroup
+set_property package_pin V10 [get_ports {A[7]}]
+endgroup
+startgroup
+set_property package_pin U11 [get_ports {A[6]}]
+endgroup
+startgroup
+set_property package_pin U12 [get_ports {A[5]}]
+endgroup
+startgroup
+set_property package_pin H6 [get_ports {A[4]}]
+endgroup
+startgroup
+set_property package_pin T13 [get_ports {A[3]}]
+endgroup
+startgroup
+set_property package_pin R16 [get_ports {A[2]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {A[1]}]
+endgroup
+startgroup
+set_property package_pin T8 [get_ports {A[0]}]
+endgroup
+startgroup
+set_property package_pin R13 [get_ports {B[7]}]
+endgroup
+startgroup
+set_property package_pin U18 [get_ports {B[6]}]
+endgroup
+startgroup
+set_property package_pin T18 [get_ports {B[5]}]
+endgroup
+startgroup
+set_property package_pin R17 [get_ports {B[4]}]
+endgroup
+startgroup
+set_property package_pin R15 [get_ports {B[3]}]
+endgroup
+set_property package_pin "" [get_ports [list  {S[2]}]]
+set_property package_pin "" [get_ports [list  {S[1]}]]
+set_property package_pin "" [get_ports [list  {S[0]}]]
+startgroup
+set_property package_pin M13 [get_ports {B[2]}]
+endgroup
+startgroup
+set_property package_pin L16 [get_ports {B[1]}]
+endgroup
+startgroup
+set_property package_pin J15 [get_ports {B[0]}]
+endgroup
+startgroup
+set_property package_pin V11 [get_ports {F[7]}]
+endgroup
+startgroup
+set_property package_pin V12 [get_ports {F[6]}]
+endgroup
+startgroup
+set_property package_pin V14 [get_ports {F[5]}]
+endgroup
+startgroup
+set_property package_pin V15 [get_ports {F[4]}]
+endgroup
+startgroup
+set_property package_pin T16 [get_ports {F[3]}]
+endgroup
+startgroup
+set_property package_pin U14 [get_ports {F[2]}]
+endgroup
+set_property package_pin "" [get_ports [list  Z]]
+startgroup
+set_property package_pin T15 [get_ports {F[1]}]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports {F[0]}]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports Z]
+endgroup
+startgroup
+set_property package_pin M18 [get_ports {S[2]}]
+endgroup
+startgroup
+set_property package_pin N17 [get_ports {S[1]}]
+endgroup
+startgroup
+set_property package_pin P18 [get_ports {S[0]}]
+endgroup
+save_constraints

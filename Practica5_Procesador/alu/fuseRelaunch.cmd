@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/XIMENA/Escritorio/arqui/PRAC2/alu/alu_isim_beh.exe" -prj "D:/XIMENA/Escritorio/arqui/PRAC2/alu/alu_beh.prj" "work.alu" 

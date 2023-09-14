@@ -1,0 +1,5 @@
+vhdl work "../stack_p/stack_p.vhd"
+vhdl work "../SRAM/SRAM.vhd"
+vhdl work "../program_c/program_c.vhd"
+vhdl work "../divisor_reloj/divisor_reloj.vhd"
+vhdl work "pila.vhd"

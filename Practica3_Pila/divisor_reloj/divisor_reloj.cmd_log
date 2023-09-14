@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/ProgramasVHDLARQUI/P3/divisor_reloj/divisor_reloj.xst" -ofn "D:/ProgramasVHDLARQUI/P3/divisor_reloj/divisor_reloj.syr" 
+xst -intstyle ise -ifn "D:/ProgramasVHDLARQUI/P3/divisor_reloj/divisor_reloj.xst" -ofn "D:/ProgramasVHDLARQUI/P3/divisor_reloj/divisor_reloj.syr" 

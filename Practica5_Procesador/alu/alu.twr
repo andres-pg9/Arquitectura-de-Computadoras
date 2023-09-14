@@ -1,0 +1,211 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml alu.twx alu.ncd -o alu.twr alu.pcf
+
+Design file:              alu.ncd
+Physical constraint file: alu.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |C              |    7.204|
+A<0>           |F<0>           |    7.119|
+A<0>           |F<1>           |    7.384|
+A<0>           |F<2>           |    6.612|
+A<0>           |F<3>           |    7.339|
+A<0>           |F<4>           |    6.880|
+A<0>           |F<5>           |    6.818|
+A<0>           |F<6>           |    6.672|
+A<0>           |F<7>           |    7.169|
+A<0>           |N              |    7.314|
+A<0>           |Z              |    8.270|
+A<1>           |C              |    7.449|
+A<1>           |F<0>           |    6.627|
+A<1>           |F<1>           |    7.478|
+A<1>           |F<2>           |    6.865|
+A<1>           |F<3>           |    7.592|
+A<1>           |F<4>           |    7.125|
+A<1>           |F<5>           |    7.063|
+A<1>           |F<6>           |    6.917|
+A<1>           |F<7>           |    7.414|
+A<1>           |N              |    7.559|
+A<1>           |Z              |    8.523|
+A<2>           |C              |    7.380|
+A<2>           |F<1>           |    6.843|
+A<2>           |F<2>           |    6.664|
+A<2>           |F<3>           |    7.424|
+A<2>           |F<4>           |    7.056|
+A<2>           |F<5>           |    6.994|
+A<2>           |F<6>           |    6.848|
+A<2>           |F<7>           |    7.345|
+A<2>           |N              |    7.490|
+A<2>           |Z              |    8.355|
+A<3>           |C              |    7.341|
+A<3>           |F<2>           |    6.584|
+A<3>           |F<3>           |    7.307|
+A<3>           |F<4>           |    7.017|
+A<3>           |F<5>           |    6.955|
+A<3>           |F<6>           |    6.809|
+A<3>           |F<7>           |    7.306|
+A<3>           |N              |    7.451|
+A<3>           |Z              |    8.238|
+A<4>           |C              |    7.299|
+A<4>           |F<3>           |    6.548|
+A<4>           |F<4>           |    6.901|
+A<4>           |F<5>           |    6.680|
+A<4>           |F<6>           |    6.687|
+A<4>           |F<7>           |    7.176|
+A<4>           |N              |    7.321|
+A<4>           |Z              |    7.766|
+A<5>           |C              |    7.713|
+A<5>           |F<4>           |    6.224|
+A<5>           |F<5>           |    6.943|
+A<5>           |F<6>           |    7.109|
+A<5>           |F<7>           |    7.598|
+A<5>           |N              |    7.743|
+A<5>           |Z              |    8.186|
+A<6>           |C              |    7.499|
+A<6>           |F<5>           |    6.196|
+A<6>           |F<6>           |    6.827|
+A<6>           |F<7>           |    7.285|
+A<6>           |N              |    7.430|
+A<6>           |Z              |    7.873|
+A<7>           |C              |    7.390|
+A<7>           |F<6>           |    6.678|
+A<7>           |F<7>           |    7.098|
+A<7>           |N              |    7.243|
+A<7>           |Z              |    7.686|
+B<0>           |C              |    7.387|
+B<0>           |F<0>           |    7.302|
+B<0>           |F<1>           |    7.567|
+B<0>           |F<2>           |    6.795|
+B<0>           |F<3>           |    7.522|
+B<0>           |F<4>           |    7.063|
+B<0>           |F<5>           |    7.001|
+B<0>           |F<6>           |    6.855|
+B<0>           |F<7>           |    7.352|
+B<0>           |N              |    7.497|
+B<0>           |Z              |    8.453|
+B<1>           |C              |    7.445|
+B<1>           |F<1>           |    7.474|
+B<1>           |F<2>           |    6.861|
+B<1>           |F<3>           |    7.588|
+B<1>           |F<4>           |    7.121|
+B<1>           |F<5>           |    7.059|
+B<1>           |F<6>           |    6.913|
+B<1>           |F<7>           |    7.410|
+B<1>           |N              |    7.555|
+B<1>           |Z              |    8.519|
+B<2>           |C              |    7.577|
+B<2>           |F<2>           |    6.861|
+B<2>           |F<3>           |    7.621|
+B<2>           |F<4>           |    7.253|
+B<2>           |F<5>           |    7.191|
+B<2>           |F<6>           |    7.045|
+B<2>           |F<7>           |    7.542|
+B<2>           |N              |    7.687|
+B<2>           |Z              |    8.552|
+B<3>           |C              |    6.940|
+B<3>           |F<3>           |    6.906|
+B<3>           |F<4>           |    6.616|
+B<3>           |F<5>           |    6.554|
+B<3>           |F<6>           |    6.408|
+B<3>           |F<7>           |    6.905|
+B<3>           |N              |    7.050|
+B<3>           |Z              |    7.837|
+B<4>           |C              |    7.416|
+B<4>           |F<4>           |    7.215|
+B<4>           |F<5>           |    6.797|
+B<4>           |F<6>           |    6.804|
+B<4>           |F<7>           |    7.293|
+B<4>           |N              |    7.438|
+B<4>           |Z              |    7.883|
+B<5>           |C              |    7.330|
+B<5>           |F<5>           |    6.560|
+B<5>           |F<6>           |    6.726|
+B<5>           |F<7>           |    7.215|
+B<5>           |N              |    7.360|
+B<5>           |Z              |    7.803|
+B<6>           |C              |    7.447|
+B<6>           |F<6>           |    6.711|
+B<6>           |F<7>           |    7.233|
+B<6>           |N              |    7.378|
+B<6>           |Z              |    7.821|
+B<7>           |C              |    6.957|
+B<7>           |F<7>           |    6.665|
+B<7>           |N              |    6.810|
+B<7>           |Z              |    7.253|
+sel<0>         |C              |    8.081|
+sel<0>         |F<0>           |    7.864|
+sel<0>         |F<1>           |    8.129|
+sel<0>         |F<2>           |    7.497|
+sel<0>         |F<3>           |    8.224|
+sel<0>         |F<4>           |    7.757|
+sel<0>         |F<5>           |    7.695|
+sel<0>         |F<6>           |    7.549|
+sel<0>         |F<7>           |    8.046|
+sel<0>         |N              |    8.191|
+sel<0>         |Z              |    9.155|
+sel<1>         |C              |    6.144|
+sel<1>         |F<0>           |    6.353|
+sel<1>         |F<1>           |    6.808|
+sel<1>         |F<2>           |    6.302|
+sel<1>         |F<3>           |    7.067|
+sel<1>         |F<4>           |    6.465|
+sel<1>         |F<5>           |    6.310|
+sel<1>         |F<6>           |    6.391|
+sel<1>         |F<7>           |    6.011|
+sel<1>         |N              |    6.156|
+sel<1>         |Z              |    7.998|
+sel<2>         |C              |    5.729|
+sel<2>         |F<0>           |    6.719|
+sel<2>         |F<1>           |    6.467|
+sel<2>         |F<2>           |    6.145|
+sel<2>         |F<3>           |    6.915|
+sel<2>         |F<4>           |    5.645|
+sel<2>         |F<5>           |    5.502|
+sel<2>         |F<6>           |    5.578|
+sel<2>         |F<7>           |    6.106|
+sel<2>         |N              |    6.251|
+sel<2>         |Z              |    7.846|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Mar 13 17:37:15 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 5002 MB
+
+
+

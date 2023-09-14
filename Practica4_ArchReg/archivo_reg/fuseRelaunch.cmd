@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/archivo_reg/archivo_reg_isim_beh.exe" -prj "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/archivo_reg/archivo_reg_beh.prj" "work.archivo_reg" 

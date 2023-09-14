@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=Z:\2\Practica2\Instruccion_top\Instruccion_top.ncd
+OUTFILE=Z:\2\Practica2\Instruccion_top\Instruccion_top.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=Z:\2\Practica2\Instruccion_top
+LICENSE=WebPack
+USER_INFO=212533649_0_0_434

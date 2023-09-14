@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/XIMENA/Escritorio/arqui/nuevo proyecto/ext_sig_br/ext_sig_br.xst" -ofn "D:/XIMENA/Escritorio/arqui/nuevo proyecto/ext_sig_br/ext_sig_br.syr" 

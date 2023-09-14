@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.xst" -ofn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.syr" 
+xst -intstyle ise -ifn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.xst" -ofn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.syr" 
+xst -intstyle ise -ifn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.xst" -ofn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.syr" 
+xst -intstyle ise -ifn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.xst" -ofn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.syr" 
+xst -intstyle ise -ifn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.xst" -ofn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.syr" 
+xst -intstyle ise -ifn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.xst" -ofn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.syr" 
+xst -intstyle ise -ifn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.xst" -ofn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.syr" 
+xst -intstyle ise -ifn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.xst" -ofn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.syr" 
+xst -intstyle ise -ifn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.xst" -ofn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.syr" 
+xst -intstyle ise -ifn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.xst" -ofn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.syr" 
+xst -intstyle ise -ifn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.xst" -ofn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.syr" 
+xst -intstyle ise -ifn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.xst" -ofn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "archivo_r.ngc" archivo_r.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o archivo_r_map.ncd archivo_r.ngd archivo_r.pcf 
+par -w -intstyle ise -ol high -mt off archivo_r_map.ncd archivo_r.ncd archivo_r.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml archivo_r.twx archivo_r.ncd -o archivo_r.twr archivo_r.pcf 
+bitgen -intstyle ise -f archivo_r.ut archivo_r.ncd 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim archivo_r.ngc archivo_r_synthesis.v 
+xst -intstyle ise -ifn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.xst" -ofn "D:/XIMENA/Escritorio/arqui/p4 registro/archivo_r/archivo_r.syr" 

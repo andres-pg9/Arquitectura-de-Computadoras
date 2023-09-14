@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/ProgramasVHDLARQUI/P3/stack_p/stack_p.xst" -ofn "D:/ProgramasVHDLARQUI/P3/stack_p/stack_p.syr" 

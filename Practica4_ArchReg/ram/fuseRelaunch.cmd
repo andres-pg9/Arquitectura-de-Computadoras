@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/ram/ram_isim_beh.exe" -prj "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/ram/ram_beh.prj" "work.ram" 

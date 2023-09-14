@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=Z:\Arquitectura\Practica4_ArchReg\archivo_registros_top\archivo_registro_top.ncd
+OUTFILE=Z:\Arquitectura\Practica4_ArchReg\archivo_registros_top\archivo_registro_top.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=Z:\Arquitectura\Practica4_ArchReg\archivo_registros_top
+LICENSE=WebPack
+USER_INFO=212533649_0_0_434

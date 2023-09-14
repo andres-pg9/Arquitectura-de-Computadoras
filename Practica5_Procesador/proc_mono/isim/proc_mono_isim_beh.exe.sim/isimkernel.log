@@ -1,0 +1,30 @@
+Command line:
+   proc_mono_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55947
+
+Thu Jun 15 17:52:42 2023
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5155.24 Meg
+
+ Total Signals          : 309
+ Total Nets             : 1350
+ Total Signal Drivers   : 123
+ Total Blocks           : 50
+ Total Primitive Blocks : 48
+ Total Processes        : 108
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 1728
+Total Line Count : 447
+Total Line Count : 447
+
+ Total Simulation Time: 1.35938 sec
+
+ Current Memory Usage: 5469.81 Meg
+
+Thu Jun 15 17:54:52 2023
+

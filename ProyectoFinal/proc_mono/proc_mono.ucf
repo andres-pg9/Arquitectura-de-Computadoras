@@ -1,0 +1,16 @@
+
+# PlanAhead Generated IO constraints 
+
+# PlanAhead Generated physical constraints 
+
+NET "clk" LOC = V10;
+NET "clr" LOC = A8;
+#NET "clr0" LOC = P17;
+NET "portb[7]" LOC = N16;
+NET "portb[6]" LOC = L14;
+NET "portb[5]" LOC = N14;
+NET "portb[4]" LOC = M14;
+NET "portb[3]" LOC = U18;
+NET "portb[2]" LOC = U17;
+NET "portb[1]" LOC = T18;
+NET "portb[0]" LOC = T17;

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/XIMENA/Escritorio/arqui/pila/pila/pila_isim_beh.exe" -prj "D:/XIMENA/Escritorio/arqui/pila/pila/pila_beh.prj" "work.pila" 

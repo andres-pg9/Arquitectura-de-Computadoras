@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/ProgramasVHDLARQUI/P3/SRAM/SRAM.xst" -ofn "D:/ProgramasVHDLARQUI/P3/SRAM/SRAM.syr" 
+xst -intstyle ise -ifn "D:/ProgramasVHDLARQUI/P3/SRAM/SRAM.xst" -ofn "D:/ProgramasVHDLARQUI/P3/SRAM/SRAM.syr" 

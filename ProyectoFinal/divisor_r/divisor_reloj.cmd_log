@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/XIMENA/Escritorio/arqui/Procesador/divisor_r/divisor_reloj.xst" -ofn "D:/XIMENA/Escritorio/arqui/Procesador/divisor_r/divisor_reloj.syr" 

@@ -1,0 +1,45 @@
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top/archivo_registro_top.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top/archivo_registro_top.syr" 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top/archivo_registro_top.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top/archivo_registro_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc archivo_registro_top.ucf -p xc7a100t-csg324-3 "archivo_registro_top.ngc" archivo_registro_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o archivo_registro_top_map.ncd archivo_registro_top.ngd archivo_registro_top.pcf 
+par -w -intstyle ise -ol high -mt off archivo_registro_top_map.ncd archivo_registro_top.ncd archivo_registro_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml archivo_registro_top.twx archivo_registro_top.ncd -o archivo_registro_top.twr archivo_registro_top.pcf -ucf archivo_registro_top.ucf 
+bitgen -intstyle ise -f archivo_registro_top.ut archivo_registro_top.ncd 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top/archivo_registro_top.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top/archivo_registro_top.syr" 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top/archivo_registro_top.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top/archivo_registro_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc archivo_registro_top.ucf -p xc7a100t-csg324-3 "archivo_registro_top.ngc" archivo_registro_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o archivo_registro_top_map.ncd archivo_registro_top.ngd archivo_registro_top.pcf 
+par -w -intstyle ise -ol high -mt off archivo_registro_top_map.ncd archivo_registro_top.ncd archivo_registro_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml archivo_registro_top.twx archivo_registro_top.ncd -o archivo_registro_top.twr archivo_registro_top.pcf -ucf archivo_registro_top.ucf 
+bitgen -intstyle ise -f archivo_registro_top.ut archivo_registro_top.ncd 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top/archivo_registro_top.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top/archivo_registro_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc archivo_registro_top.ucf -p xc7a100t-csg324-3 "archivo_registro_top.ngc" archivo_registro_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o archivo_registro_top_map.ncd archivo_registro_top.ngd archivo_registro_top.pcf 
+par -w -intstyle ise -ol high -mt off archivo_registro_top_map.ncd archivo_registro_top.ncd archivo_registro_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml archivo_registro_top.twx archivo_registro_top.ncd -o archivo_registro_top.twr archivo_registro_top.pcf -ucf archivo_registro_top.ucf 
+bitgen -intstyle ise -f archivo_registro_top.ut archivo_registro_top.ncd 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top/archivo_registro_top.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top/archivo_registro_top.syr" 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top/archivo_registro_top.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top/archivo_registro_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc archivo_registro_top.ucf -p xc7a100t-csg324-3 "archivo_registro_top.ngc" archivo_registro_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o archivo_registro_top_map.ncd archivo_registro_top.ngd archivo_registro_top.pcf 
+par -w -intstyle ise -ol high -mt off archivo_registro_top_map.ncd archivo_registro_top.ncd archivo_registro_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml archivo_registro_top.twx archivo_registro_top.ncd -o archivo_registro_top.twr archivo_registro_top.pcf -ucf archivo_registro_top.ucf 
+bitgen -intstyle ise -f archivo_registro_top.ut archivo_registro_top.ncd 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top/archivo_registro_top.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top/archivo_registro_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc archivo_registro_top.ucf -p xc7a100t-csg324-3 "archivo_registro_top.ngc" archivo_registro_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o archivo_registro_top_map.ncd archivo_registro_top.ngd archivo_registro_top.pcf 
+par -w -intstyle ise -ol high -mt off archivo_registro_top_map.ncd archivo_registro_top.ncd archivo_registro_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml archivo_registro_top.twx archivo_registro_top.ncd -o archivo_registro_top.twr archivo_registro_top.pcf -ucf archivo_registro_top.ucf 
+bitgen -intstyle ise -f archivo_registro_top.ut archivo_registro_top.ncd 
+xst -intstyle ise -ifn "Z:/Arquitectura/Practica4_ArchReg/archivo_registros_top/archivo_registro_top.xst" -ofn "Z:/Arquitectura/Practica4_ArchReg/archivo_registros_top/archivo_registro_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc archivo_registro_top.ucf -p xc7a100t-csg324-3 archivo_registro_top.ngc archivo_registro_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o archivo_registro_top_map.ncd archivo_registro_top.ngd archivo_registro_top.pcf 
+par -w -intstyle ise -ol high -mt off archivo_registro_top_map.ncd archivo_registro_top.ncd archivo_registro_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml archivo_registro_top.twx archivo_registro_top.ncd -o archivo_registro_top.twr archivo_registro_top.pcf -ucf archivo_registro_top.ucf 
+bitgen -intstyle ise -f archivo_registro_top.ut archivo_registro_top.ncd 
+xst -intstyle ise -ifn "Z:/Arquitectura/Practica4_ArchReg/archivo_registros_top/archivo_registro_top.xst" -ofn "Z:/Arquitectura/Practica4_ArchReg/archivo_registros_top/archivo_registro_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc archivo_registro_top.ucf -p xc7a100t-csg324-3 archivo_registro_top.ngc archivo_registro_top.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o archivo_registro_top_map.ncd archivo_registro_top.ngd archivo_registro_top.pcf 
+par -w -intstyle ise -ol high -mt off archivo_registro_top_map.ncd archivo_registro_top.ncd archivo_registro_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml archivo_registro_top.twx archivo_registro_top.ncd -o archivo_registro_top.twr archivo_registro_top.pcf -ucf archivo_registro_top.ucf 
+bitgen -intstyle ise -f archivo_registro_top.ut archivo_registro_top.ncd 

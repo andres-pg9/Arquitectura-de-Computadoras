@@ -1,0 +1,14 @@
+sel_alu 
+l_d 
+sel_rel 
+Br 
+sel_read_d 
+sel_read_r 
+sel_w_d 
+en_w 
+en_port 
+en_sreg
+ld_mov 
+Bn 
+s1 
+s0 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/XIMENA/Escritorio/arqui/memoria RAM de 38x8/SRAM/SRAM_isim_beh.exe" -prj "D:/XIMENA/Escritorio/arqui/memoria RAM de 38x8/SRAM/SRAM_beh.prj" "work.SRAM" 

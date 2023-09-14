@@ -1,0 +1,50 @@
+ISim log file
+Running: C:\Users\jvmom\OneDrive\Escritorio\5to Semestre\Arquitectura de Computadoras\archivo_reg\archivo_reg_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/archivo_reg/archivo_reg_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# restart
+# restart
+# isim force add /archivo_reg/clk 0 -radix bin -value 1 -radix bin -time 500 ps -repeat 1 ns
+# isim force add /archivo_reg/clr 1 -radix bin
+# isim force add /archivo_reg/en_w 0 -radix bin
+# isim force add /archivo_reg/sel_w_d 11111 -radix bin
+# isim force add /archivo_reg/sel_read_d 11111 -radix bin
+# isim force add /archivo_reg/sel_read_r 11110 -radix bin
+# isim force add /archivo_reg/dato_i 10101010 -radix bin
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 1ns
+# restart
+# run 1ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /archivo_reg/clr 0 -radix bin
+# run 1ns
+# isim force add /archivo_reg/en_w 1 -radix bin
+# isim force add /archivo_reg/dato_i 10101010 -radix bin
+# run 1ns
+# isim force add /archivo_reg/sel_w_d 11111 -radix bin
+# isim force add /archivo_reg/sel_read_d 11111 -radix bin
+# isim force add /archivo_reg/sel_read_r 11110 -radix bin
+# run 1ns
+# run 1ns
+# isim force add /archivo_reg/clk 0 -radix bin -value 1 -radix bin -time 500 ps -repeat 1 ns
+# isim force add /archivo_reg/clr 1 -radix bin
+# run 1ns
+# isim force add /archivo_reg/clr 0 -radix bin
+# run 1ns
+# isim force add /archivo_reg/en_w 0 -radix bin
+# run 1ns
+# isim force add /archivo_reg/sel_read_r 11111 -radix bin
+# run 1ns

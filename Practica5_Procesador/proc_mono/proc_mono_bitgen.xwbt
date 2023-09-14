@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\XIMENA\Escritorio\arqui\Procesador - copia\proc_mono\proc_mono.ncd
+OUTFILE=D:\XIMENA\Escritorio\arqui\Procesador - copia\proc_mono\proc_mono.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=D:\XIMENA\Escritorio\arqui\Procesador - copia\proc_mono
+LICENSE=WebPack
+USER_INFO=212683490_0_0_410

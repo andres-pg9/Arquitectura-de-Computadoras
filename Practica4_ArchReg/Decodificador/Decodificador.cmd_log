@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Decodificador/Decodificador.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Decodificador/Decodificador.syr" 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Decodificador/Decodificador.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Decodificador/Decodificador.syr" 

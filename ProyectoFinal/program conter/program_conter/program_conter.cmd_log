@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "D:/XIMENA/Escritorio/arqui/program conter/program_conter/program_conter.xst" -ofn "D:/XIMENA/Escritorio/arqui/program conter/program_conter/program_conter.syr" 
+xst -intstyle ise -ifn "D:/XIMENA/Escritorio/arqui/program conter/program_conter/program_conter.xst" -ofn "D:/XIMENA/Escritorio/arqui/program conter/program_conter/program_conter.syr" 
+xst -intstyle ise -ifn "D:/XIMENA/Escritorio/arqui/program conter/program_conter/program_conter.xst" -ofn "D:/XIMENA/Escritorio/arqui/program conter/program_conter/program_conter.syr" 

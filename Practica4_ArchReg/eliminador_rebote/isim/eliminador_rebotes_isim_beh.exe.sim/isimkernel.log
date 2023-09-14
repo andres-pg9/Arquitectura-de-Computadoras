@@ -1,0 +1,30 @@
+Command line:
+   eliminador_rebotes_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63495
+
+Fri Nov 11 18:56:53 2022
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5150.74 Meg
+
+ Total Signals          : 7
+ Total Nets             : 7
+ Total Signal Drivers   : 4
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 367
+Total Line Count : 5
+Total Line Count : 5
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 4678.89 Meg
+
+Fri Nov 11 18:59:34 2022
+

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/XIMENA/Escritorio/arqui/Procesador/Registro de estado/s_reg/s_reg.xst" -ofn "D:/XIMENA/Escritorio/arqui/Procesador/Registro de estado/s_reg/s_reg.syr" 
+xst -intstyle ise -ifn "D:/XIMENA/Escritorio/arqui/Procesador/Registro de estado/s_reg/s_reg.xst" -ofn "D:/XIMENA/Escritorio/arqui/Procesador/Registro de estado/s_reg/s_reg.syr" 

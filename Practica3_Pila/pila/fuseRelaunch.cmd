@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/ProgramasVHDLARQUI/P3/pila/pila_isim_beh.exe" -prj "D:/ProgramasVHDLARQUI/P3/pila/pila_beh.prj" "work.pila" 

@@ -1,0 +1,30 @@
+Command line:
+   pila_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  58879
+
+Mon Mar 27 17:31:28 2023
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5150.26 Meg
+
+ Total Signals          : 29
+ Total Nets             : 653
+ Total Signal Drivers   : 12
+ Total Blocks           : 7
+ Total Primitive Blocks : 6
+ Total Processes        : 12
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 1031
+Total Line Count : 15
+Total Line Count : 15
+
+ Total Simulation Time: 0.265625 sec
+
+ Current Memory Usage: 4835.68 Meg
+
+Mon Mar 27 17:37:04 2023
+

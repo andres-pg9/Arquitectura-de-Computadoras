@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/XIMENA/Escritorio/arqui/apuntador de pila/stack_p/stack_p.xst" -ofn "D:/XIMENA/Escritorio/arqui/apuntador de pila/stack_p/stack_p.syr" 

@@ -1,0 +1,22 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/archivo_reg/archivo_reg_isim_beh.exe -prj C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/archivo_reg/archivo_reg_beh.prj work.archivo_reg 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/archivo_reg/../registro/registro.vhd" into library work
+Parsing VHDL file "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/archivo_reg/../Multiplexor/mux.vhd" into library work
+Parsing VHDL file "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/archivo_reg/../Decodificador/Decodificador.vhd" into library work
+Parsing VHDL file "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/archivo_reg/archivo_reg.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity Decodificador [decodificador_default]
+Compiling architecture behavioral of entity registro [registro_default]
+Compiling architecture behavioral of entity mux [mux_default]
+Compiling architecture behavioral of entity archivo_reg
+Time Resolution for simulation is 1ps.
+Compiled 9 VHDL Units
+Built simulation executable C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/archivo_reg/archivo_reg_isim_beh.exe
+Fuse Memory Usage: 29856 KB
+Fuse CPU Usage: 702 ms

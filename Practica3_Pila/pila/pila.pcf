@@ -1,0 +1,43 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Mar 30 17:11:44 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "leds<10>" LOCATE = SITE "U14" LEVEL 1;
+COMP "leds<11>" LOCATE = SITE "T16" LEVEL 1;
+COMP "leds<12>" LOCATE = SITE "V15" LEVEL 1;
+COMP "leds<13>" LOCATE = SITE "V14" LEVEL 1;
+COMP "leds<14>" LOCATE = SITE "V12" LEVEL 1;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+COMP "leds<15>" LOCATE = SITE "V11" LEVEL 1;
+COMP "botones<10>" LOCATE = SITE "R16" LEVEL 1;
+COMP "botones<11>" LOCATE = SITE "T13" LEVEL 1;
+COMP "clr" LOCATE = SITE "M18" LEVEL 1;
+COMP "botones<12>" LOCATE = SITE "H6" LEVEL 1;
+COMP "botones<13>" LOCATE = SITE "U12" LEVEL 1;
+COMP "botones<14>" LOCATE = SITE "U11" LEVEL 1;
+COMP "botones<15>" LOCATE = SITE "V10" LEVEL 1;
+COMP "leds<0>" LOCATE = SITE "H17" LEVEL 1;
+COMP "leds<1>" LOCATE = SITE "K15" LEVEL 1;
+COMP "s1s0<0>" LOCATE = SITE "P17" LEVEL 1;
+COMP "leds<2>" LOCATE = SITE "J13" LEVEL 1;
+COMP "s1s0<1>" LOCATE = SITE "M17" LEVEL 1;
+COMP "leds<3>" LOCATE = SITE "N14" LEVEL 1;
+COMP "botones<0>" LOCATE = SITE "J15" LEVEL 1;
+COMP "leds<4>" LOCATE = SITE "R18" LEVEL 1;
+COMP "botones<1>" LOCATE = SITE "L16" LEVEL 1;
+COMP "leds<5>" LOCATE = SITE "V17" LEVEL 1;
+COMP "botones<2>" LOCATE = SITE "M13" LEVEL 1;
+COMP "leds<6>" LOCATE = SITE "U17" LEVEL 1;
+COMP "botones<3>" LOCATE = SITE "R15" LEVEL 1;
+COMP "leds<7>" LOCATE = SITE "U16" LEVEL 1;
+COMP "botones<4>" LOCATE = SITE "R17" LEVEL 1;
+COMP "leds<8>" LOCATE = SITE "V16" LEVEL 1;
+COMP "botones<5>" LOCATE = SITE "T18" LEVEL 1;
+COMP "leds<9>" LOCATE = SITE "T15" LEVEL 1;
+COMP "botones<6>" LOCATE = SITE "U18" LEVEL 1;
+COMP "botones<7>" LOCATE = SITE "R13" LEVEL 1;
+COMP "botones<8>" LOCATE = SITE "T8" LEVEL 1;
+COMP "botones<9>" LOCATE = SITE "U8" LEVEL 1;
+SCHEMATIC END;
+

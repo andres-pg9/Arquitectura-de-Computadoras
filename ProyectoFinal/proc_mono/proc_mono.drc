@@ -1,0 +1,13 @@
+Release 14.7 Drc P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Jun 21 19:01:19 2023
+
+drc -z proc_mono.ncd proc_mono.pcf
+
+WARNING:PhysDesignRules:367 - The signal <cto9/Mram_dato2_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <cto9/Mram_dato1_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+DRC detected 0 errors and 2 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

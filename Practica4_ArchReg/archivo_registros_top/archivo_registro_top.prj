@@ -1,0 +1,8 @@
+vhdl work "../registro/registro.vhd"
+vhdl work "../Multiplexor/mux.vhd"
+vhdl work "../Decodificador/Decodificador.vhd"
+vhdl work "../eliminador_rebote/eliminador_rebotes.vhd"
+vhdl work "../contador/contador.vhd"
+vhdl work "../clk_div/clk_div.vhd"
+vhdl work "../archivo_reg/archivo_reg.vhd"
+vhdl work "archivo_registro_top.vhd"

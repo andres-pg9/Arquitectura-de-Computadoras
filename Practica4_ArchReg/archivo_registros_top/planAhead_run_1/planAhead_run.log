@@ -1,0 +1,205 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top/pa.fromNetlist.tcl}
+# create_project -name archivo_registros_top -dir "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top/planAhead_run_1" -part xc7a100tcsg324-3
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top/archivo_registro_top.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "archivo_registro_top.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top/archivo_registro_top.ucf' to fileset 'constrs_1'
+# add_files [list {archivo_registro_top.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc7a100tcsg324-3
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design archivo_registro_top.ngc ...
+WARNING:NetListWriters:298 - No output is written to archivo_registro_top.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file archivo_registro_top.edif ...
+ngc2edif: Total memory usage is 4314216 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/archivo_registros_top.data/cache/archivo_registro_top_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/archivo_registros_top.data/cache/archivo_registro_top_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 53 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/drc.xml
+Parsing UCF File [C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top/archivo_registro_top.ucf]
+Finished Parsing UCF File [C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top/archivo_registro_top.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 53 instances were transformed.
+  BUFGP => BUFGP (IBUF, BUFG): 1 instances
+  FDC => FDCE: 52 instances
+
+Phase 0 | Netlist Checksum: 7d75b2ac
+link_design: Time (s): elapsed = 00:00:15 . Memory (MB): peak = 827.469 ; gain = 386.313
+set_property iostandard LVCMOS33 [get_ports [list {dato_I[7]} {dato_I[6]} {dato_I[5]} {dato_I[4]} {dato_I[3]} {dato_I[2]} {dato_I[1]} {dato_I[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {O_d[7]} {O_d[6]} {O_d[5]} {O_d[4]} {O_d[3]} {O_d[2]} {O_d[1]} {O_d[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {O_r[7]} {O_r[6]} {O_r[5]} {O_r[4]} {O_r[3]} {O_r[2]} {O_r[1]} {O_r[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list btn0]]
+set_property iostandard LVCMOS33 [get_ports [list btn1]]
+set_property iostandard LVCMOS33 [get_ports [list btn2]]
+set_property iostandard LVCMOS33 [get_ports [list clk]]
+set_property iostandard LVCMOS33 [get_ports [list clr]]
+set_property iostandard LVCMOS33 [get_ports [list clr0]]
+set_property iostandard LVCMOS33 [get_ports [list clr1]]
+set_property iostandard LVCMOS33 [get_ports [list clr2]]
+set_property iostandard LVCMOS33 [get_ports [list en_w]]
+startgroup
+set_property package_pin V10 [get_ports {dato_I[7]}]
+endgroup
+startgroup
+set_property package_pin U11 [get_ports {dato_I[6]}]
+endgroup
+startgroup
+set_property package_pin U12 [get_ports {dato_I[5]}]
+endgroup
+startgroup
+set_property package_pin H6 [get_ports {dato_I[4]}]
+endgroup
+startgroup
+set_property package_pin T13 [get_ports {dato_I[3]}]
+endgroup
+startgroup
+set_property package_pin R16 [get_ports {dato_I[2]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {dato_I[1]}]
+endgroup
+startgroup
+set_property package_pin T8 [get_ports {dato_I[0]}]
+endgroup
+startgroup
+set_property package_pin V11 [get_ports {O_d[7]}]
+endgroup
+startgroup
+set_property package_pin V12 [get_ports {O_d[6]}]
+endgroup
+startgroup
+set_property package_pin V14 [get_ports {O_d[5]}]
+endgroup
+startgroup
+set_property package_pin V15 [get_ports {O_d[4]}]
+endgroup
+startgroup
+set_property package_pin T16 [get_ports {O_d[3]}]
+endgroup
+startgroup
+set_property package_pin U14 [get_ports {O_d[2]}]
+endgroup
+startgroup
+set_property package_pin T15 [get_ports {O_d[1]}]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports {O_d[0]}]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports {O_r[7]}]
+endgroup
+startgroup
+set_property package_pin U17 [get_ports {O_r[6]}]
+endgroup
+startgroup
+set_property package_pin V17 [get_ports {O_r[5]}]
+endgroup
+startgroup
+set_property package_pin R18 [get_ports {O_r[4]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {O_r[3]}]
+endgroup
+startgroup
+set_property package_pin J13 [get_ports {O_r[2]}]
+endgroup
+startgroup
+set_property package_pin K15 [get_ports {O_r[1]}]
+endgroup
+startgroup
+set_property package_pin H17 [get_ports {O_r[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  btn0]]
+startgroup
+set_property package_pin E3 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports btn0]
+endgroup
+startgroup
+set_property package_pin N17 [get_ports btn1]
+endgroup
+startgroup
+set_property package_pin M17 [get_ports btn2]
+endgroup
+startgroup
+set_property package_pin J15 [get_ports clr]
+endgroup
+startgroup
+set_property package_pin R15 [get_ports clr0]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports clr1]
+endgroup
+startgroup
+set_property package_pin L16 [get_ports clr2]
+endgroup
+startgroup
+set_property package_pin R17 [get_ports en_w]
+endgroup
+startgroup
+set_property package_pin L16 [get_ports clr2]
+endgroup
+startgroup
+set_property package_pin R17 [get_ports en_w]
+endgroup
+save_constraints
+set_property package_pin "" [get_ports [list  btn0]]
+set_property package_pin "" [get_ports [list  btn1]]
+set_property package_pin "" [get_ports [list  btn2]]
+startgroup
+set_property package_pin P17 [get_ports clr0]
+endgroup
+startgroup
+set_property package_pin N17 [get_ports clr1]
+endgroup
+startgroup
+set_property package_pin M17 [get_ports clr2]
+endgroup
+startgroup
+set_property package_pin P18 [get_ports en_w]
+endgroup
+startgroup
+set_property package_pin R15 [get_ports btn0]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports btn1]
+endgroup
+startgroup
+set_property package_pin L16 [get_ports btn2]
+endgroup
+save_constraints -force
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Dec 06 19:44:24 2022...
+INFO: [Common 17-83] Releasing license: PlanAhead

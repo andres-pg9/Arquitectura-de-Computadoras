@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/XIMENA/Escritorio/arqui/Procesador/program conter/program_conter/program_conter_isim_beh.exe" -prj "D:/XIMENA/Escritorio/arqui/Procesador/program conter/program_conter/program_conter_beh.prj" "work.program_conter" 

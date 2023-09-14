@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/eliminador_rebote/eliminador_rebotes.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/eliminador_rebote/eliminador_rebotes.syr" 

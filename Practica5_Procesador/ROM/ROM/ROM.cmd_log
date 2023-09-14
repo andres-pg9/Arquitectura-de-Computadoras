@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/XIMENA/Escritorio/arqui/ROM/ROM/ROM.xst" -ofn "D:/XIMENA/Escritorio/arqui/ROM/ROM/ROM.syr" 

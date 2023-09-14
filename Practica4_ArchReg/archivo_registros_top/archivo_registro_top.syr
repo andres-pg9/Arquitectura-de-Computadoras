@@ -1,0 +1,769 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: archivo_registro_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "archivo_registro_top.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "archivo_registro_top"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : archivo_registro_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "\\vboxsvr\windows_xp\Arquitectura\Practica4_ArchReg\registro\registro.vhd" into library work
+Parsing entity <registro>.
+Parsing architecture <Behavioral> of entity <registro>.
+Parsing VHDL file "\\vboxsvr\windows_xp\Arquitectura\Practica4_ArchReg\Multiplexor\mux.vhd" into library work
+Parsing entity <mux>.
+Parsing architecture <Behavioral> of entity <mux>.
+Parsing VHDL file "\\vboxsvr\windows_xp\Arquitectura\Practica4_ArchReg\Decodificador\Decodificador.vhd" into library work
+Parsing entity <Decodificador>.
+Parsing architecture <Behavioral> of entity <decodificador>.
+Parsing VHDL file "\\vboxsvr\windows_xp\Arquitectura\Practica4_ArchReg\eliminador_rebote\eliminador_rebotes.vhd" into library work
+Parsing entity <eliminador_rebotes>.
+Parsing architecture <Behavioral> of entity <eliminador_rebotes>.
+Parsing VHDL file "\\vboxsvr\windows_xp\Arquitectura\Practica4_ArchReg\contador\contador.vhd" into library work
+Parsing entity <contador>.
+Parsing architecture <Behavioral> of entity <contador>.
+Parsing VHDL file "\\vboxsvr\windows_xp\Arquitectura\Practica4_ArchReg\clk_div\clk_div.vhd" into library work
+Parsing entity <clk_div>.
+Parsing architecture <Behavioral> of entity <clk_div>.
+Parsing VHDL file "\\vboxsvr\windows_xp\Arquitectura\Practica4_ArchReg\archivo_reg\archivo_reg.vhd" into library work
+Parsing entity <archivo_reg>.
+Parsing architecture <Behavioral> of entity <archivo_reg>.
+Parsing VHDL file "\\vboxsvr\windows_xp\Arquitectura\Practica4_ArchReg\archivo_registros_top\archivo_registro_top.vhd" into library work
+Parsing entity <archivo_registro_top>.
+Parsing architecture <Behavioral> of entity <archivo_registro_top>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <archivo_registro_top> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <clk_div> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <eliminador_rebotes> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <contador> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <archivo_reg> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Decodificador> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <registro> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <mux> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <archivo_registro_top>.
+    Related source file is "\\vboxsvr\windows_xp\Arquitectura\Practica4_ArchReg\archivo_registros_top\archivo_registro_top.vhd".
+    Summary:
+	no macro.
+Unit <archivo_registro_top> synthesized.
+
+Synthesizing Unit <clk_div>.
+    Related source file is "\\vboxsvr\windows_xp\Arquitectura\Practica4_ArchReg\clk_div\clk_div.vhd".
+    Found 18-bit register for signal <q_aux>.
+    Found 18-bit adder for signal <q_aux[17]_GND_6_o_add_0_OUT> created at line 18.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  18 D-type flip-flop(s).
+Unit <clk_div> synthesized.
+
+Synthesizing Unit <eliminador_rebotes>.
+    Related source file is "\\vboxsvr\windows_xp\Arquitectura\Practica4_ArchReg\eliminador_rebote\eliminador_rebotes.vhd".
+    Found 1-bit register for signal <q1>.
+    Found 1-bit register for signal <q0>.
+    Found 1-bit register for signal <q2>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <eliminador_rebotes> synthesized.
+
+Synthesizing Unit <contador>.
+    Related source file is "\\vboxsvr\windows_xp\Arquitectura\Practica4_ArchReg\contador\contador.vhd".
+    Found 5-bit register for signal <aux>.
+    Found 5-bit adder for signal <aux[4]_GND_8_o_add_0_OUT> created at line 19.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   5 D-type flip-flop(s).
+Unit <contador> synthesized.
+
+Synthesizing Unit <archivo_reg>.
+    Related source file is "\\vboxsvr\windows_xp\Arquitectura\Practica4_ArchReg\archivo_reg\archivo_reg.vhd".
+    Summary:
+	no macro.
+Unit <archivo_reg> synthesized.
+
+Synthesizing Unit <Decodificador>.
+    Related source file is "\\vboxsvr\windows_xp\Arquitectura\Practica4_ArchReg\Decodificador\Decodificador.vhd".
+    Found 32x32-bit Read Only RAM for signal <sel_w_d[4]_PWR_10_o_wide_mux_0_OUT>
+    Summary:
+	inferred   1 RAM(s).
+	inferred   1 Multiplexer(s).
+Unit <Decodificador> synthesized.
+
+Synthesizing Unit <registro>.
+    Related source file is "\\vboxsvr\windows_xp\Arquitectura\Practica4_ArchReg\registro\registro.vhd".
+    Found 8-bit register for signal <qaux>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <registro> synthesized.
+
+Synthesizing Unit <mux>.
+    Related source file is "\\vboxsvr\windows_xp\Arquitectura\Practica4_ArchReg\Multiplexor\mux.vhd".
+    Found 8-bit 32-to-1 multiplexer for signal <O> created at line 7.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <mux> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 32x32-bit single-port Read Only RAM                   : 1
+# Adders/Subtractors                                   : 4
+ 18-bit adder                                          : 1
+ 5-bit adder                                           : 3
+# Registers                                            : 45
+ 1-bit register                                        : 9
+ 18-bit register                                       : 1
+ 5-bit register                                        : 3
+ 8-bit register                                        : 32
+# Multiplexers                                         : 3
+ 32-bit 2-to-1 multiplexer                             : 1
+ 8-bit 32-to-1 multiplexer                             : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Decodificador>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_sel_w_d[4]_PWR_10_o_wide_mux_0_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <sel_w_d>       |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <Decodificador> synthesized (advanced).
+
+Synthesizing (advanced) Unit <clk_div>.
+The following registers are absorbed into counter <q_aux>: 1 register on signal <q_aux>.
+Unit <clk_div> synthesized (advanced).
+
+Synthesizing (advanced) Unit <contador>.
+The following registers are absorbed into counter <aux>: 1 register on signal <aux>.
+Unit <contador> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 32x32-bit single-port distributed Read Only RAM       : 1
+# Counters                                             : 4
+ 18-bit up counter                                     : 1
+ 5-bit up counter                                      : 3
+# Registers                                            : 265
+ Flip-Flops                                            : 265
+# Multiplexers                                         : 3
+ 32-bit 2-to-1 multiplexer                             : 1
+ 8-bit 32-to-1 multiplexer                             : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <archivo_registro_top> ...
+
+Optimizing unit <archivo_reg> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block archivo_registro_top, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 298
+ Flip-Flops                                            : 298
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : archivo_registro_top.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 281
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 17
+#      LUT2                        : 3
+#      LUT3                        : 6
+#      LUT4                        : 3
+#      LUT5                        : 3
+#      LUT6                        : 192
+#      MUXCY                       : 17
+#      MUXF7                       : 16
+#      VCC                         : 1
+#      XORCY                       : 18
+# FlipFlops/Latches                : 298
+#      FDC                         : 42
+#      FDCE                        : 256
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 32
+#      IBUF                        : 16
+#      OBUF                        : 16
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             298  out of  126800     0%  
+ Number of Slice LUTs:                  228  out of  63400     0%  
+    Number used as Logic:               228  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    354
+   Number with an unused Flip Flop:      56  out of    354    15%  
+   Number with an unused LUT:           126  out of    354    35%  
+   Number of fully used LUT-FF pairs:   172  out of    354    48%  
+   Number of unique control sets:        37
+
+IO Utilization: 
+ Number of IOs:                          33
+ Number of bonded IOBs:                  33  out of    210    15%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     32     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+cto_cd/q_aux_17                    | BUFG                   | 265   |
+cont2_aux(cto_er2/sal1:O)          | NONE(*)(cto_cnt2/aux_0)| 5     |
+clk                                | BUFGP                  | 18    |
+cont1_aux(cto_er1/sal1:O)          | NONE(*)(cto_cnt1/aux_0)| 5     |
+cont0_aux(cto_er0/sal1:O)          | NONE(*)(cto_cnt0/aux_0)| 5     |
+-----------------------------------+------------------------+-------+
+(*) These 3 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 1.852ns (Maximum Frequency: 539.869MHz)
+   Minimum input arrival time before clock: 0.991ns
+   Maximum output required time after clock: 2.475ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'cto_cd/q_aux_17'
+  Clock period: 0.653ns (frequency: 1532.567MHz)
+  Total number of paths / destination ports: 6 / 6
+-------------------------------------------------------------------------
+Delay:               0.653ns (Levels of Logic = 0)
+  Source:            cto_er2/q1 (FF)
+  Destination:       cto_er2/q0 (FF)
+  Source Clock:      cto_cd/q_aux_17 rising
+  Destination Clock: cto_cd/q_aux_17 rising
+
+  Data Path: cto_er2/q1 to cto_er2/q0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.361   0.283  cto_er2/q1 (cto_er2/q1)
+     FDC:D                     0.008          cto_er2/q0
+    ----------------------------------------
+    Total                      0.653ns (0.369ns logic, 0.283ns route)
+                                       (56.6% logic, 43.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'cont2_aux'
+  Clock period: 1.228ns (frequency: 814.531MHz)
+  Total number of paths / destination ports: 15 / 5
+-------------------------------------------------------------------------
+Delay:               1.228ns (Levels of Logic = 1)
+  Source:            cto_cnt2/aux_3 (FF)
+  Destination:       cto_cnt2/aux_4 (FF)
+  Source Clock:      cont2_aux rising
+  Destination Clock: cont2_aux rising
+
+  Data Path: cto_cnt2/aux_3 to cto_cnt2/aux_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             18   0.361   0.762  cto_cnt2/aux_3 (cto_cnt2/aux_3)
+     LUT5:I0->O            1   0.097   0.000  Result<4>1 (Result<4>)
+     FDC:D                     0.008          cto_cnt2/aux_4
+    ----------------------------------------
+    Total                      1.228ns (0.466ns logic, 0.762ns route)
+                                       (38.0% logic, 62.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 1.852ns (frequency: 539.869MHz)
+  Total number of paths / destination ports: 171 / 18
+-------------------------------------------------------------------------
+Delay:               1.852ns (Levels of Logic = 19)
+  Source:            cto_cd/q_aux_0 (FF)
+  Destination:       cto_cd/q_aux_17 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: cto_cd/q_aux_0 to cto_cd/q_aux_17
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.361   0.279  cto_cd/q_aux_0 (cto_cd/q_aux_0)
+     INV:I->O              1   0.113   0.000  cto_cd/Mcount_q_aux_lut<0>_INV_0 (cto_cd/Mcount_q_aux_lut<0>)
+     MUXCY:S->O            1   0.353   0.000  cto_cd/Mcount_q_aux_cy<0> (cto_cd/Mcount_q_aux_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  cto_cd/Mcount_q_aux_cy<1> (cto_cd/Mcount_q_aux_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  cto_cd/Mcount_q_aux_cy<2> (cto_cd/Mcount_q_aux_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  cto_cd/Mcount_q_aux_cy<3> (cto_cd/Mcount_q_aux_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  cto_cd/Mcount_q_aux_cy<4> (cto_cd/Mcount_q_aux_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  cto_cd/Mcount_q_aux_cy<5> (cto_cd/Mcount_q_aux_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  cto_cd/Mcount_q_aux_cy<6> (cto_cd/Mcount_q_aux_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  cto_cd/Mcount_q_aux_cy<7> (cto_cd/Mcount_q_aux_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  cto_cd/Mcount_q_aux_cy<8> (cto_cd/Mcount_q_aux_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  cto_cd/Mcount_q_aux_cy<9> (cto_cd/Mcount_q_aux_cy<9>)
+     MUXCY:CI->O           1   0.023   0.000  cto_cd/Mcount_q_aux_cy<10> (cto_cd/Mcount_q_aux_cy<10>)
+     MUXCY:CI->O           1   0.023   0.000  cto_cd/Mcount_q_aux_cy<11> (cto_cd/Mcount_q_aux_cy<11>)
+     MUXCY:CI->O           1   0.023   0.000  cto_cd/Mcount_q_aux_cy<12> (cto_cd/Mcount_q_aux_cy<12>)
+     MUXCY:CI->O           1   0.023   0.000  cto_cd/Mcount_q_aux_cy<13> (cto_cd/Mcount_q_aux_cy<13>)
+     MUXCY:CI->O           1   0.023   0.000  cto_cd/Mcount_q_aux_cy<14> (cto_cd/Mcount_q_aux_cy<14>)
+     MUXCY:CI->O           1   0.023   0.000  cto_cd/Mcount_q_aux_cy<15> (cto_cd/Mcount_q_aux_cy<15>)
+     MUXCY:CI->O           0   0.023   0.000  cto_cd/Mcount_q_aux_cy<16> (cto_cd/Mcount_q_aux_cy<16>)
+     XORCY:CI->O           1   0.370   0.000  cto_cd/Mcount_q_aux_xor<17> (Result<17>)
+     FDC:D                     0.008          cto_cd/q_aux_17
+    ----------------------------------------
+    Total                      1.852ns (1.573ns logic, 0.279ns route)
+                                       (84.9% logic, 15.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'cont1_aux'
+  Clock period: 1.228ns (frequency: 814.531MHz)
+  Total number of paths / destination ports: 15 / 5
+-------------------------------------------------------------------------
+Delay:               1.228ns (Levels of Logic = 1)
+  Source:            cto_cnt1/aux_3 (FF)
+  Destination:       cto_cnt1/aux_4 (FF)
+  Source Clock:      cont1_aux rising
+  Destination Clock: cont1_aux rising
+
+  Data Path: cto_cnt1/aux_3 to cto_cnt1/aux_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             18   0.361   0.762  cto_cnt1/aux_3 (cto_cnt1/aux_3)
+     LUT5:I0->O            1   0.097   0.000  Result<4>21 (Result<4>2)
+     FDC:D                     0.008          cto_cnt1/aux_4
+    ----------------------------------------
+    Total                      1.228ns (0.466ns logic, 0.762ns route)
+                                       (38.0% logic, 62.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'cont0_aux'
+  Clock period: 1.256ns (frequency: 795.938MHz)
+  Total number of paths / destination ports: 15 / 5
+-------------------------------------------------------------------------
+Delay:               1.256ns (Levels of Logic = 1)
+  Source:            cto_cnt0/aux_3 (FF)
+  Destination:       cto_cnt0/aux_4 (FF)
+  Source Clock:      cont0_aux rising
+  Destination Clock: cont0_aux rising
+
+  Data Path: cto_cnt0/aux_3 to cto_cnt0/aux_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             34   0.361   0.790  cto_cnt0/aux_3 (cto_cnt0/aux_3)
+     LUT5:I0->O            1   0.097   0.000  Result<4>31 (Result<4>3)
+     FDC:D                     0.008          cto_cnt0/aux_4
+    ----------------------------------------
+    Total                      1.256ns (0.466ns logic, 0.790ns route)
+                                       (37.1% logic, 62.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'cto_cd/q_aux_17'
+  Total number of paths / destination ports: 780 / 780
+-------------------------------------------------------------------------
+Offset:              0.991ns (Levels of Logic = 2)
+  Source:            en_w (PAD)
+  Destination:       cto_ar/cto0/qaux_0 (FF)
+  Destination Clock: cto_cd/q_aux_17 rising
+
+  Data Path: en_w to cto_ar/cto0/qaux_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            32   0.001   0.486  en_w_IBUF (en_w_IBUF)
+     LUT6:I4->O            8   0.097   0.311  cto_ar/cto_dec/Mmux_O281 (cto_ar/O_aux<5>)
+     FDCE:CE                   0.095          cto_ar/cto5/qaux_0
+    ----------------------------------------
+    Total                      0.991ns (0.193ns logic, 0.798ns route)
+                                       (19.5% logic, 80.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'cont2_aux'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              0.648ns (Levels of Logic = 1)
+  Source:            clr2 (PAD)
+  Destination:       cto_cnt2/aux_0 (FF)
+  Destination Clock: cont2_aux rising
+
+  Data Path: clr2 to cto_cnt2/aux_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   0.001   0.298  clr2_IBUF (clr2_IBUF)
+     FDC:CLR                   0.349          cto_cnt2/aux_0
+    ----------------------------------------
+    Total                      0.648ns (0.350ns logic, 0.298ns route)
+                                       (54.0% logic, 46.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 18 / 18
+-------------------------------------------------------------------------
+Offset:              0.775ns (Levels of Logic = 1)
+  Source:            clr (PAD)
+  Destination:       cto_cd/q_aux_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: clr to cto_cd/q_aux_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           283   0.001   0.425  clr_IBUF (clr_IBUF)
+     FDC:CLR                   0.349          cto_cd/q_aux_0
+    ----------------------------------------
+    Total                      0.775ns (0.350ns logic, 0.425ns route)
+                                       (45.2% logic, 54.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'cont1_aux'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              0.648ns (Levels of Logic = 1)
+  Source:            clr1 (PAD)
+  Destination:       cto_cnt1/aux_0 (FF)
+  Destination Clock: cont1_aux rising
+
+  Data Path: clr1 to cto_cnt1/aux_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   0.001   0.298  clr1_IBUF (clr1_IBUF)
+     FDC:CLR                   0.349          cto_cnt1/aux_0
+    ----------------------------------------
+    Total                      0.648ns (0.350ns logic, 0.298ns route)
+                                       (54.0% logic, 46.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'cont0_aux'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              0.648ns (Levels of Logic = 1)
+  Source:            clr0 (PAD)
+  Destination:       cto_cnt0/aux_0 (FF)
+  Destination Clock: cont0_aux rising
+
+  Data Path: clr0 to cto_cnt0/aux_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   0.001   0.298  clr0_IBUF (clr0_IBUF)
+     FDC:CLR                   0.349          cto_cnt0/aux_0
+    ----------------------------------------
+    Total                      0.648ns (0.350ns logic, 0.298ns route)
+                                       (54.0% logic, 46.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'cont1_aux'
+  Total number of paths / destination ports: 168 / 8
+-------------------------------------------------------------------------
+Offset:              2.475ns (Levels of Logic = 4)
+  Source:            cto_cnt1/aux_1 (FF)
+  Destination:       O_d<7> (PAD)
+  Source Clock:      cont1_aux rising
+
+  Data Path: cto_cnt1/aux_1 to O_d<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             68   0.361   0.806  cto_cnt1/aux_1 (cto_cnt1/aux_1)
+     LUT6:I0->O            1   0.097   0.556  cto_ar/cto_mux_d/Mmux_O_81 (cto_ar/cto_mux_d/Mmux_O_81)
+     LUT6:I2->O            1   0.097   0.000  cto_ar/cto_mux_d/Mmux_O_3 (cto_ar/cto_mux_d/Mmux_O_3)
+     MUXF7:I1->O           1   0.279   0.279  cto_ar/cto_mux_d/Mmux_O_2_f7 (O_d_0_OBUF)
+     OBUF:I->O                 0.000          O_d_0_OBUF (O_d<0>)
+    ----------------------------------------
+    Total                      2.475ns (0.834ns logic, 1.641ns route)
+                                       (33.7% logic, 66.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'cto_cd/q_aux_17'
+  Total number of paths / destination ports: 512 / 16
+-------------------------------------------------------------------------
+Offset:              2.230ns (Levels of Logic = 4)
+  Source:            cto_ar/cto26/qaux_7 (FF)
+  Destination:       O_d<7> (PAD)
+  Source Clock:      cto_cd/q_aux_17 rising
+
+  Data Path: cto_ar/cto26/qaux_7 to O_d<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             2   0.361   0.561  cto_ar/cto26/qaux_7 (cto_ar/cto26/qaux_7)
+     LUT6:I2->O            1   0.097   0.556  cto_ar/cto_mux_r/Mmux_O_822 (cto_ar/cto_mux_r/Mmux_O_822)
+     LUT6:I2->O            1   0.097   0.000  cto_ar/cto_mux_r/Mmux_O_37 (cto_ar/cto_mux_r/Mmux_O_37)
+     MUXF7:I1->O           1   0.279   0.279  cto_ar/cto_mux_r/Mmux_O_2_f7_6 (O_r_7_OBUF)
+     OBUF:I->O                 0.000          O_r_7_OBUF (O_r<7>)
+    ----------------------------------------
+    Total                      2.230ns (0.834ns logic, 1.396ns route)
+                                       (37.4% logic, 62.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'cont2_aux'
+  Total number of paths / destination ports: 168 / 8
+-------------------------------------------------------------------------
+Offset:              2.475ns (Levels of Logic = 4)
+  Source:            cto_cnt2/aux_1 (FF)
+  Destination:       O_r<7> (PAD)
+  Source Clock:      cont2_aux rising
+
+  Data Path: cto_cnt2/aux_1 to O_r<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             68   0.361   0.806  cto_cnt2/aux_1 (cto_cnt2/aux_1)
+     LUT6:I0->O            1   0.097   0.556  cto_ar/cto_mux_r/Mmux_O_81 (cto_ar/cto_mux_r/Mmux_O_81)
+     LUT6:I2->O            1   0.097   0.000  cto_ar/cto_mux_r/Mmux_O_3 (cto_ar/cto_mux_r/Mmux_O_3)
+     MUXF7:I1->O           1   0.279   0.279  cto_ar/cto_mux_r/Mmux_O_2_f7 (O_r_0_OBUF)
+     OBUF:I->O                 0.000          O_r_0_OBUF (O_r<0>)
+    ----------------------------------------
+    Total                      2.475ns (0.834ns logic, 1.641ns route)
+                                       (33.7% logic, 66.3% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    1.852|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock cont0_aux
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+cont0_aux      |    1.256|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock cont1_aux
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+cont1_aux      |    1.228|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock cont2_aux
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+cont2_aux      |    1.228|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock cto_cd/q_aux_17
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+cont0_aux      |    1.665|         |         |         |
+cto_cd/q_aux_17|    0.653|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.31 secs
+ 
+--> 
+
+Total memory usage is 236676 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

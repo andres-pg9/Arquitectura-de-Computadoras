@@ -1,0 +1,159 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Nov 01 21:44:52 2022
+# Process ID: 12108
+# Log file: C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/pa.fromNetlist.tcl}
+# create_project -name Instruccion_top -dir "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/planAhead_run_1" -part xc7a100tcsg324-3
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "Instruccion_top.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.ucf' to fileset 'constrs_1'
+# add_files [list {Instruccion_top.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc7a100tcsg324-3
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design Instruccion_top.ngc ...
+WARNING:NetListWriters:298 - No output is written to Instruccion_top.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file Instruccion_top.edif ...
+ngc2edif: Total memory usage is 4310104 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/Instruccion_top.data/cache/Instruccion_top_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/Instruccion_top.data/cache/Instruccion_top_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/drc.xml
+Parsing UCF File [C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.ucf]
+Finished Parsing UCF File [C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top/Instruccion_top.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  BUFGP => BUFGP (IBUF, BUFG): 1 instances
+  FDC => FDCE: 2 instances
+  FDP => FDPE: 1 instances
+
+Phase 0 | Netlist Checksum: ec28ad25
+link_design: Time (s): elapsed = 00:00:16 . Memory (MB): peak = 830.129 ; gain = 396.863
+set_property iostandard LVCMOS33 [get_ports [list {A[5]} {A[4]} {A[3]} {A[2]} {A[1]} {A[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {B[5]} {B[4]} {B[3]} {B[2]} {B[1]} {B[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {F[5]} {F[4]} {F[3]} {F[2]} {F[1]} {F[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {S[2]} {S[1]} {S[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list clk]]
+set_property iostandard LVCMOS33 [get_ports [list clr]]
+set_property iostandard LVCMOS33 [get_ports [list inicio]]
+set_property iostandard LVCMOS33 [get_ports [list Z]]
+startgroup
+set_property package_pin E3 [get_ports clk]
+endgroup
+set_property package_pin "" [get_ports [list  clr]]
+startgroup
+set_property package_pin V10 [get_ports {A[5]}]
+endgroup
+startgroup
+set_property package_pin U11 [get_ports {A[4]}]
+endgroup
+startgroup
+set_property package_pin U12 [get_ports {A[3]}]
+endgroup
+startgroup
+set_property package_pin H6 [get_ports {A[2]}]
+endgroup
+startgroup
+set_property package_pin T13 [get_ports {A[1]}]
+endgroup
+startgroup
+set_property package_pin R16 [get_ports {A[0]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {B[5]}]
+endgroup
+startgroup
+set_property package_pin T8 [get_ports {B[4]}]
+endgroup
+startgroup
+set_property package_pin R13 [get_ports {B[3]}]
+endgroup
+startgroup
+set_property package_pin U18 [get_ports {B[2]}]
+endgroup
+startgroup
+set_property package_pin T18 [get_ports {B[1]}]
+endgroup
+startgroup
+set_property package_pin R17 [get_ports {B[0]}]
+endgroup
+startgroup
+set_property package_pin V11 [get_ports {F[5]}]
+endgroup
+startgroup
+set_property package_pin V12 [get_ports {F[4]}]
+endgroup
+startgroup
+set_property package_pin V14 [get_ports {F[3]}]
+endgroup
+set_property package_pin "" [get_ports [list  {F[1]}]]
+startgroup
+set_property package_pin V15 [get_ports {F[2]}]
+endgroup
+startgroup
+set_property package_pin T16 [get_ports {F[1]}]
+endgroup
+startgroup
+set_property package_pin U14 [get_ports {F[0]}]
+endgroup
+startgroup
+set_property package_pin R15 [get_ports {S[2]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {S[1]}]
+endgroup
+startgroup
+set_property package_pin L16 [get_ports {S[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  Z]]
+startgroup
+set_property package_pin T15 [get_ports Z]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports clr]
+endgroup
+save_constraints
+startgroup
+set_property package_pin M17 [get_ports inicio]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica2/Instruccion_top\planAhead_pid12108.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Nov 01 21:53:15 2022...
+INFO: [Common 17-83] Releasing license: PlanAhead

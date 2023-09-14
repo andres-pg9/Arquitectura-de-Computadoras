@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top/eliminador_rebotes_isim_beh.exe" -prj "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica4/archivo_registros_top/eliminador_rebotes_beh.prj" "work.eliminador_rebotes" 

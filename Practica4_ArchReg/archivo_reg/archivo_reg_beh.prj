@@ -1,0 +1,4 @@
+vhdl work "../registro/registro.vhd"
+vhdl work "../Multiplexor/mux.vhd"
+vhdl work "../Decodificador/Decodificador.vhd"
+vhdl work "archivo_reg.vhd"

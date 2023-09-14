@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/XIMENA/Escritorio/arqui/Procesador - copia/proc_mono/proc_mono_isim_beh.exe" -prj "D:/XIMENA/Escritorio/arqui/Procesador - copia/proc_mono/proc_mono_beh.prj" "work.proc_mono" 
